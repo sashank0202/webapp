@@ -27,7 +27,7 @@
     - name: Start the container
       docker_container:
         name: webapp
-        image: "sudheer10thota/webapp:0.0.1"
+        image: "sashank0202/webapps:v1.0"
         state: started
         published_ports:
-          - 0.0.0.0:8089:8080
+          - 0.0.0.0:8888:8080
